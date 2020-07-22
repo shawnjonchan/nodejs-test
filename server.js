@@ -44,4 +44,9 @@ var server = http.createServer(function (request, response) {
 });
 
 server.listen(port);
-console.log("监听 " + port + " 成功\n请打开 http://localhost:" + port);
+console.log(
+  "监听 " +
+    port +
+    " 成功\n请左手画龙右手画彩虹再向天大吼一声'芝麻开门'打开 http://localhost:" +
+    port
+);
